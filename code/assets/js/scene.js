@@ -40,6 +40,8 @@
         }
       });
 
+        var featureArray = []
+
         
         view.on("pointer-down", function(event){
         view.hitTest(event)
@@ -59,7 +61,23 @@
         }
 
         function spawnObject(long, lat){
-          console.log("object spawn at " + long + ", " + lat)
+        console.log("object spawn at " + long + ", " + lat)
+        
+        featureArray.push(
+            { 
+               geometry: {
+                 type: "point",
+                 longitude: long,
+                 latitude: lat
+               },
+               attributes: {
+                 ROTATION: "30",
+                 CATEGORY: "test",
+                 SIZE: "10"
+               }
+             })
+            
+            console.log(featureArray)
         }    
         
         
