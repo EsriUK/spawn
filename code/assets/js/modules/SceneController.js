@@ -89,7 +89,42 @@ define([
         console.log(clickCount)
             
         if(clickCount === 1){
-        console.log("object spawn at " + long + ", " + lat)
+            
+            console.log("object spawn at " + long + ", " + lat)
+            //spawning object
+            var temp =  { 
+                   geometry: {
+                     type: "point",
+                     longitude: long,
+                     latitude: lat
+                   },
+                   attributes: {
+                     ROTATION: "0",
+                     CATEGORY: "test",
+                     SIZE: "1"
+                   }
+             } 
+            
+            $("body").mousemove(function(e) {
+                featureLayerScaler(cachcedY,e.clientY,e)
+            })
+            console.log(temp)
+        } 
+            
+        function featureLayerScaler(cachcedY, currentMouseY,e){
+            console.log("size = " + ((cachcedY - currentMouseY)/10))
+            e.stopPropagation();
+        }
+        
+        if(clickCount === 2){
+            console.log("rotating the feature")
+        }
+        
+        if(clickCount === 0){
+            console.log("save and push feature?")
+        
+            console.log(featureArray)
+            
             featureArray.push(
                 { 
                    geometry: {
@@ -104,21 +139,7 @@ define([
                    }
              }) 
             
-//            $("body").mousemove(function(e) {
-//                featureLayerScaler(cachcedY,e.clientY,e)
-//            })
-            console.log(featureArray)
-        } 
-            
-        function featureLayerScaler(cachcedY, currentMouseY,e){
-            console.log("size = " + ((cachcedY - currentMouseY)/10))
-            e.stopPropagation();
         }
-        
-        if(clickCount === 2){
-            console.log("rotating the feature")
-        }
-     c
         
         }  
         
