@@ -92,6 +92,8 @@ define([
         ///////////////////////////////////////
         
     function spawnObject(long, lat, clickCount){
+
+
         
         $("body").mousemove(function(e) {
                 featureLayerScaler(e)
@@ -153,10 +155,40 @@ define([
         
         }  
         
-        
-        
-        
         ////////////////////////////////////////
+
+        function createFeatureLayer() {
+            var fields = [
+                {
+                  name: "ObjectID",
+                  alias: "ObjectID",
+                  type: "oid"
+                }, {
+                  name: "SIZE",
+                  alias: "size",
+                  type: "string"
+                }, {
+                  name: "ROTATION",
+                  alias: "rotation",
+                  type: "string"
+                }, {
+                  name: "CATEGORY",
+                  alias: "category",
+                  type: "string"
+            }];
+
+            lyr = new FeatureLayer({
+                source: featureArray, // autocast as an array of esri/Graphic
+                // create an instance of esri/layers/support/Field for each field object
+                fields: fields, // This is required when creating a layer from Graphics
+                objectIdField: "ObjectID", // This must be defined when creating a layer from Graphics
+                //renderer: quakesRenderer, // set the visualization on the layer
+                spatialReference: {
+                  wkid: 4326
+                },
+                geometryType: "point", // Must be set when creating a layer from Graphics
+            });
+        }
         
     }
 
