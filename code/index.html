@@ -77,7 +77,17 @@
 	<script src="assets/js/common.js"></script>
     <script src="https://js.arcgis.com/4.6/"></script>
     <script src="assets/js/scene.js"></script>
-    <script src="assets/js/spawn.js"></script>
+	<script src="assets/js/spawn.js"></script>
+	
+	<script>
+        var dojoConfig = {
+            async: true,
+            isDebug: true,
+            paths: {
+                modules: location.href.replace(location.href.split("/").pop(), "") + "/js/modules"
+            }
+        };
+    </script>
 
   </body>
 
