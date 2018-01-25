@@ -11,9 +11,9 @@ require([
 
     //Build the map and generate a palette from a random image
     function initialise(){
-        sceneController.buildScene();
-        //.done(function () {
-
+        
+		sceneController.buildScene();
+		
 		$("#owl-demo").owlCarousel({
 			jsonPath : 'assets/data/testdata.json',
 			jsonSuccess : customDataSuccess,
@@ -28,7 +28,7 @@ require([
 			for(var i in data["items"]){
 				var img = data["items"][i].src;
 				var alt = data["items"][i].alt;
-				content += "<img src=\"" +img+ "\" alt=\"" +alt+ "\">"
+				content += "<div><img src=\"" + img + "\" alt=\"" + alt + "\"><em style='opacity: 0;'>" + alt.toLowerCase() + "</em></div>"
 			}
 			$("#owl-demo").html(content);
 		}
@@ -40,6 +40,10 @@ require([
 			} else{
 				$this.addClass('clicked');
 			}
+		});
+
+		$("#filter").keyup(function () {
+			$(".owl-item").hide().filter(":contains(" + $(this).val().toLowerCase() + ")").show();
 		});
  
     } 
