@@ -7,11 +7,11 @@ define([
     "dojo/domReady!"
   ], function(WebScene, SceneView, FeatureLayer, SceneLayer, Query) {
 
-    var view;
 
     //Constructor for a new MapController
     var SceneController = function (viewDiv){
         this.viewDiv = viewDiv;
+        var view;
     }
     
     //Builds the default map
@@ -46,15 +46,18 @@ define([
             }
         });
         //var mapWait = $.Deferred();
-        
         //mapWait.resolve();
         //return mapWait.promise();
+    }
+
+    SceneController.prototype.getView = function(){
+        return this.view;
     }
 
 
     //Stuff to make public
     return {
-        SceneController: SceneController,
-        BuildScene:BuildScene
+        SceneController: SceneController
+        
     };
 });
