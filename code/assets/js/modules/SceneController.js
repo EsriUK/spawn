@@ -52,12 +52,19 @@ define([
         
       var featureArray = []
       var clickCount = 0
-      var cachcedY = 400
+      var cachedY
+      var cachedX
+      var current
+ 
         
     that.view.on("click", function(event){
+        cachedY = event.y
+        cachedX = event.x
+        console.log(cachedY + ", " + cachedX)
+        
         clickCount ++
         
-         if(clickCount === 3){
+         if(clickCount === 2){
             console.log("reset states")
            // cachedY = []
            // cachedX = []
@@ -85,6 +92,10 @@ define([
         ///////////////////////////////////////
         
     function spawnObject(long, lat, clickCount){
+        
+        $("body").mousemove(function(e) {
+                featureLayerScaler(e)
+        })
     
         console.log(clickCount)
             
@@ -105,25 +116,18 @@ define([
                    }
              } 
             
-            $("body").mousemove(function(e) {
-                featureLayerScaler(cachcedY,e.clientY,e)
-            })
+           
             console.log(temp)
         } 
-            
-        function featureLayerScaler(cachcedY, currentMouseY,e){
-            console.log("size = " + ((cachcedY - currentMouseY)/10))
-            e.stopPropagation();
-        }
-        
-        if(clickCount === 2){
-            console.log("rotating the feature")
-        }
+   
         
         if(clickCount === 0){
             console.log("save and push feature?")
         
             console.log(featureArray)
+            
+              
+             $("body").off(mousemove())
             
             featureArray.push(
                 { 
@@ -140,6 +144,12 @@ define([
              }) 
             
         }
+           
+        function featureLayerScaler(e){
+                    console.log("size = " + Math.abs((cachedY - e.pageY)/10))
+                    console.log("rotation = " + ((cachedX - e.pageX)/2))
+        }
+      
         
         }  
         
