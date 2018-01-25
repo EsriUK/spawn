@@ -57,31 +57,31 @@ define([
       var current
  
         
-    that.view.on("click", function(event){
-        cachedY = event.y
-        cachedX = event.x
-        console.log(cachedY + ", " + cachedX)
+    // that.view.on("click", function(event){
+    //     cachedY = event.y
+    //     cachedX = event.x
+    //     console.log(cachedY + ", " + cachedX)
         
-        clickCount ++
+    //     clickCount ++
         
-         if(clickCount === 2){
-            console.log("reset states")
-           // cachedY = []
-           // cachedX = []
-            clickCount = 0;
-        }
+    //      if(clickCount === 2){
+    //         console.log("reset states")
+    //        // cachedY = []
+    //        // cachedX = []
+    //         clickCount = 0;
+    //     }
         
-        that.view.hitTest(event)
+    //     that.view.hitTest(event)
 
-          .then(function(response){
-            spawnObject(response.results[0].mapPoint.longitude,response.results[0].mapPoint.latitude,clickCount)
+    //       .then(function(response){
+    //         spawnObject(response.results[0].mapPoint.longitude,response.results[0].mapPoint.latitude,clickCount)
                 
-            if(response.results[0].graphic != null){
-              //And if edit mode is enabled. 
-               objectHighlight()
-            }
-          })
-        });
+    //         if(response.results[0].graphic != null){
+    //           //And if edit mode is enabled. 
+    //            objectHighlight()
+    //         }
+    //       })
+    //     });
 
         function objectHighlight(){
           console.log("object is highlighted")

@@ -6,6 +6,7 @@ require([
     //Session Variables-----------------------------------------------------------------------------
     var sceneController = new SceneController.SceneController("viewDiv");
     var spawner = new Spawner.Spawner();
+    
 
     //Functions  -----------------------------------------------------------------------------------
 
@@ -50,7 +51,13 @@ require([
 
 		$("#filter").keyup(function () {
 			$(".owl-item").hide().filter(":contains(" + $(this).val().toLowerCase() + ")").show();
-		});
+        });
+        
+        sceneController.getView().on("click", function(event){
+
+            spawner.spawn(event, sceneController.getView());
+            
+        });
  
     } 
     
