@@ -28,12 +28,18 @@ require([
 			for(var i in data["items"]){
 				var img = data["items"][i].src;
 				var alt = data["items"][i].alt;
-				content += "<div><img src=\"" + img + "\" alt=\"" + alt + "\"><em style='opacity: 0;'>" + alt.toLowerCase() + "</em></div>"
+
+				var name = data["items"][i].name;
+				var stylename = data["items"][i].stylename;
+
+				content += "<div><img src=\"" + img + "\" alt=\"" + alt + "\"><em style='opacity: 0;'>" + alt.toLowerCase() + "</em><em style='opacity: 0;'>" + name + "</em><em style='opacity: 0;'>" + stylename + "</em></div>"
 			}
 			$("#owl-demo").html(content);
 		}
 
 		$(document).on('click', '.owl-item', function(){
+			console.log($(this).context.children[0].childNodes[2].innerText);
+			console.log($(this).context.children[0].childNodes[3].innerText);
 			var $this = $(this);
 			if($this.hasClass('clicked')){
 				$this.removeClass('clicked');
