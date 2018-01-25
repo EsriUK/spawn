@@ -48,6 +48,85 @@ define([
         //var mapWait = $.Deferred();
         //mapWait.resolve();
         //return mapWait.promise();
+   ///////////////////////////////////////////
+        
+      var featureArray = []
+      var clickCount = 0
+      var cachcedY = 400
+        
+    that.view.on("click", function(event){
+        clickCount ++
+        
+         if(clickCount === 3){
+            console.log("reset states")
+           // cachedY = []
+           // cachedX = []
+            clickCount = 0;
+        }
+        
+        that.view.hitTest(event)
+
+          .then(function(response){
+            spawnObject(response.results[0].mapPoint.longitude,response.results[0].mapPoint.latitude,clickCount)
+                
+            if(response.results[0].graphic != null){
+              //And if edit mode is enabled. 
+               objectHighlight()
+            }
+          })
+        });
+
+        function objectHighlight(){
+          console.log("object is highlighted")
+        }
+        
+        
+        
+        ///////////////////////////////////////
+        
+    function spawnObject(long, lat, clickCount){
+    
+        console.log(clickCount)
+            
+        if(clickCount === 1){
+        console.log("object spawn at " + long + ", " + lat)
+            featureArray.push(
+                { 
+                   geometry: {
+                     type: "point",
+                     longitude: long,
+                     latitude: lat
+                   },
+                   attributes: {
+                     ROTATION: "30",
+                     CATEGORY: "test",
+                     SIZE: "10"
+                   }
+             }) 
+            
+//            $("body").mousemove(function(e) {
+//                featureLayerScaler(cachcedY,e.clientY,e)
+//            })
+            console.log(featureArray)
+        } 
+            
+        function featureLayerScaler(cachcedY, currentMouseY,e){
+            console.log("size = " + ((cachcedY - currentMouseY)/10))
+            e.stopPropagation();
+        }
+        
+        if(clickCount === 2){
+            console.log("rotating the feature")
+        }
+     c
+        
+        }  
+        
+        
+        
+        
+        ////////////////////////////////////////
+        
     }
 
     SceneController.prototype.getView = function(){

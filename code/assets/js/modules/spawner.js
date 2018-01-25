@@ -4,6 +4,9 @@ define([
 
   //Constructor for a new MapController
   var Spawner = function (){
+      console.log("hello?")
+    
+      
   }
   
   //Builds the default map
