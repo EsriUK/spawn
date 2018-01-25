@@ -1,6 +1,7 @@
 define([
-
-], function() {
+  "esri/layers/GraphicsLayer",
+        "esri/Graphic"
+], function(GraphicsLayer,Graphic) {
 
   var clickCount = 0
   var cachedY
@@ -36,8 +37,32 @@ define([
                 spawnObject(response.results[0].mapPoint.longitude,response.results[0].mapPoint.latitude,clickCount)
 
                 function spawnObject(long, lat, clickCount){
+                                        
+                    var point = {
+                      type: "point", // autocasts as new Point()
+                      longitude: long,
+                      latitude: lat
+                    };
 
+                    var markerSymbol = {
+                    type: "web-style",
+                        name: "Light_On_Post_-_Light_on",
+                            portal: {
+                            url: "https://www.arcgis.com"
+                        },
+                        styleName: "EsriRealisticStreetSceneStyle"
+                    };
 
+                    var pointGraphic = new Graphic({
+                      geometry: point,
+                      symbol: markerSymbol
+                    });
+
+                    view.graphics.add(pointGraphic);
+               
+                }
+
+/*
         
                   $("body").mousemove(function(e) {
                           featureLayerScaler(e)
@@ -66,7 +91,7 @@ define([
                       console.log(temp)
                   } 
              
-                  
+     */             
                   // if(clickCount === 0){
                   //     console.log("save and push feature?")
                   
@@ -96,16 +121,10 @@ define([
                   //             console.log("rotation = " + ((cachedX - e.pageX)/2))
                   // }
                 
-                  
-                  }  
-                  
-                    
-                if(response.results[0].graphic != null){
-                  //And if edit mode is enabled. 
-                   objectHighlight()
-                }
-              })
-  }
+        
+
+            })
+        }
 
 
   //Stuff to make public
