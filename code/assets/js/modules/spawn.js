@@ -9,17 +9,17 @@ define([
 ], function(Map, MapView, VectorTileLayer, LayerView, Search, Utils) {
 
   //Constructor for a new MapController
-  var Spawn = function (){
+  var Spawner = function (){
   }
   
   //Builds the default map
-  Spawn.prototype.doSutff = function(){
+  Spawner.prototype.doSutff = function(){
       console.log("Stuffff");
   }
 
 
   //Stuff to make public
   return {
-      MapController: MapController
+      Spawner: Spawner
   };
 });
