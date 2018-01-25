@@ -41,7 +41,7 @@
 
       var featureArray = []
 
-        
+
         
       /********************************************************************
        * Add layer containing street furniture features: benches, street lamps

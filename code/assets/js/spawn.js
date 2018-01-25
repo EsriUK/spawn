@@ -1,6 +1,8 @@
 
-    view.on("pointer-down", function(event){
+        
+    view.on("click", function(event){
         view.hitTest(event)
+
           .then(function(response){
             spawnObject(response.results[0].mapPoint.longitude,response.results[0].mapPoint.latitude)
 
@@ -10,7 +12,6 @@
             }
           })
         });
-
 
         function objectHighlight(){
           console.log("object is highlighted")
