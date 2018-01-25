@@ -1,10 +1,11 @@
 require([
-    "modules/SceneController"
-], function(SceneController) {
+    "modules/SceneController",
+    "modules/Spawner"
+], function(SceneController, Spawner) {
 
     //Session Variables-----------------------------------------------------------------------------
     var sceneController = new SceneController.SceneController("viewDiv");
-    var spawner = new Spawn.Spawn();
+    var spawner = new Spawner.Spawner();
 
     //Functions  -----------------------------------------------------------------------------------
 
