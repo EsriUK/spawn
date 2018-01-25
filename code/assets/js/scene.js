@@ -221,3 +221,7 @@
 
       view.ui.add("extra", "bottom-left");
     });
+
+    function getView(){
+      return view;
+    }
