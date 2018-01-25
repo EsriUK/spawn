@@ -4,7 +4,7 @@ require([
 
     //Session Variables-----------------------------------------------------------------------------
     var sceneController = new SceneController.SceneController("viewDiv");
-    
+    var spawner = new Spawn.Spawn();
 
     //Functions  -----------------------------------------------------------------------------------
 
@@ -21,5 +21,7 @@ require([
     initialise();
 
     console.log(sceneController.getView());
+    spawner.doStuff();
+
 
 });
