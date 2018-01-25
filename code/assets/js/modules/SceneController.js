@@ -32,7 +32,7 @@ define([
             
             environment: {
                 lighting: {
-                date: new Date("June 15, 2015 21:00:00 GMT"),
+                date: new Date("June 15, 2015 19:00:00 GMT"),
                 directShadowsEnabled: true,
                 ambientOcclusionEnabled: true
                 }
