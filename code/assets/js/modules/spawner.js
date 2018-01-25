@@ -37,10 +37,7 @@ define([
                 spawnObject(response.results[0].mapPoint.longitude,response.results[0].mapPoint.latitude,clickCount)
 
                 function spawnObject(long, lat, clickCount){
-                    
-                    console.log(long + " " + lat)
-                    
-                // London
+                                        
                     var point = {
                       type: "point", // autocasts as new Point()
                       longitude: long,
@@ -50,7 +47,7 @@ define([
                     var markerSymbol = {
                     type: "web-style",
                         name: "Light_On_Post_-_Light_on",
-                        portal: {
+                            portal: {
                             url: "https://www.arcgis.com"
                         },
                         styleName: "EsriRealisticStreetSceneStyle"
@@ -61,10 +58,9 @@ define([
                       symbol: markerSymbol
                     });
 
-                    console.log(view)
                     view.graphics.add(pointGraphic);
                
-                }//spawnObject 
+                }
 
 /*
         
@@ -127,8 +123,8 @@ define([
                 
         
 
-  })
-  }
+            })
+        }
 
 
   //Stuff to make public
