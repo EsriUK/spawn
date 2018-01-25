@@ -11,7 +11,6 @@
     ], function(WebScene, SceneView, FeatureLayer, SceneLayer, Query) {
 
         
-        console.log("am I loaded?")
       // Create the web scene
       var map = new WebScene({
         basemap: "satellite",
@@ -40,29 +39,9 @@
         }
       });
 
-        
-        view.on("pointer-down", function(event){
-        view.hitTest(event)
-          .then(function(response){
-            spawnObject(response.results[0].mapPoint.longitude,response.results[0].mapPoint.latitude)
-
-            if(response.results[0].graphic != null){
-              //And if edit mode is enabled. 
-               objectHighlight()
-            }
-          })
-        });
+      var featureArray = []
 
 
-        function objectHighlight(){
-          console.log("object is highlighted")
-        }
-
-        function spawnObject(long, lat){
-          console.log("object spawn at " + long + ", " + lat)
-        }    
-        
-        
         
       /********************************************************************
        * Add layer containing street furniture features: benches, street lamps
@@ -242,3 +221,7 @@
 
       view.ui.add("extra", "bottom-left");
     });
+
+    function getView(){
+      return view;
+    }
