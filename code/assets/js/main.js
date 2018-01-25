@@ -14,6 +14,34 @@ require([
         sceneController.buildScene();
         //.done(function () {
 
+		$("#owl-demo").owlCarousel({
+			jsonPath : 'assets/data/testdata.json',
+			jsonSuccess : customDataSuccess,
+			items : 18,
+			itemsMobile : false,
+			pagination: false,
+			rewindNav: false
+		});
+	 
+		function customDataSuccess(data){
+			var content = "";
+			for(var i in data["items"]){
+				var img = data["items"][i].src;
+				var alt = data["items"][i].alt;
+				content += "<img src=\"" +img+ "\" alt=\"" +alt+ "\">"
+			}
+			$("#owl-demo").html(content);
+		}
+
+		$(document).on('click', '.owl-item', function(){
+			var $this = $(this);
+			if($this.hasClass('clicked')){
+				$this.removeClass('clicked');
+			} else{
+				$this.addClass('clicked');
+			}
+		});
+ 
     } 
     
 
@@ -26,3 +54,4 @@ require([
 
 
 });
+
