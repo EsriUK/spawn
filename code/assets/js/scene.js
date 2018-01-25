@@ -10,6 +10,8 @@
       "dojo/domReady!"
     ], function(WebScene, SceneView, FeatureLayer, SceneLayer, Query) {
 
+        
+        console.log("am I loaded?")
       // Create the web scene
       var map = new WebScene({
         basemap: "satellite",
