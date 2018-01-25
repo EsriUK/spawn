@@ -22,7 +22,7 @@ require([
     initialise();
 
     console.log(sceneController.getView());
-    spawner.doStuff();
+    //spawner.doStuff();
 
 
 });

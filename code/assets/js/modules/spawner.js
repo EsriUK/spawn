@@ -1,12 +1,6 @@
 define([
-  "esri/Map",
-  "esri/views/MapView",
-  "esri/layers/VectorTileLayer",
-  "esri/views/layers/LayerView",
-  "esri/widgets/Search",
-  "modules/Utils",
-  "dojo/domReady!"
-], function(Map, MapView, VectorTileLayer, LayerView, Search, Utils) {
+
+], function() {
 
   //Constructor for a new MapController
   var Spawner = function (){

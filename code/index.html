@@ -25,6 +25,22 @@
 			text-align: center;
 		}
 	</style>
+
+<script>
+	var dojoConfig = {
+		async: true,
+		isDebug: true,
+		paths: {
+			modules: location.href.replace(location.href.split("/").pop(), "") + "assets/js/modules"
+		}
+	};
+</script>
+
+<script src="assets/lib/jquery-1.9.1.min.js"></script>
+<script src="assets/plugins/owlcarousel/v1/owl.carousel.js"></script>
+<script src="//js.arcgis.com/4.6/"></script>
+<!--script src="assets/js/common.js"></script-->
+<script src="assets/js/main.js"></script>
     
   </head>
 
@@ -42,21 +58,7 @@
 
 	</footer>
 	
-	<script>
-        var dojoConfig = {
-            async: true,
-            isDebug: true,
-            paths: {
-                modules: location.href.replace(location.href.split("/").pop(), "") + "/assets/js/modules"
-            }
-        };
-	</script>
-
-    <script src="assets/lib/jquery-1.9.1.min.js"></script>
-	<script src="assets/plugins/owlcarousel/v1/owl.carousel.js"></script>
-	<script src="https://js.arcgis.com/4.6/"></script>
-	<script src="assets/js/common.js"></script>
-	<script src="assets/js/main.js"></script>
+	
 
   </body>
 
