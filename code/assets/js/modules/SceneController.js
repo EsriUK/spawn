@@ -20,23 +20,16 @@ define([
 
         // Create the web scene
         var map = new WebScene({
-            basemap: "satellite",
-            ground: "world-elevation"
+            portalItem: {
+                id: "5fc6fb0e4fe445baa203eeff93902a58"
+              }
         });
 
         // Create the view
         that.view = new SceneView({
             container: "viewDiv",
             map: map,
-            camera: {
-                position: {
-                latitude: 39.957011,
-                longitude: -75.169457,
-                z: 26
-                },
-                tilt: 78,
-                heading: 315
-            },
+            
             environment: {
                 lighting: {
                 date: new Date("June 15, 2015 16:00:00 EDT"),
