@@ -35,6 +35,9 @@ define([
                 date: new Date("June 15, 2015 19:00:00 GMT"),
                 directShadowsEnabled: true,
                 ambientOcclusionEnabled: true
+                },
+                atmosphere:{
+                    quality: "high"
                 }
             }
         });

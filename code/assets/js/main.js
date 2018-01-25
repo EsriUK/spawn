@@ -38,16 +38,7 @@ require([
 			$("#owl-demo").html(content);
 		}
 
-		$(document).on('click', '.owl-item', function(){
-			console.log($(this).context.children[0].childNodes[2].innerText);
-			console.log($(this).context.children[0].childNodes[3].innerText);
-			var $this = $(this);
-			if($this.hasClass('clicked')){
-				$this.removeClass('clicked');
-			} else{
-				$this.addClass('clicked');
-			}
-		});
+	
 
 		$("#filter").keyup(function () {
 			$(".owl-item").hide().filter(":contains(" + $(this).val().toLowerCase() + ")").show();

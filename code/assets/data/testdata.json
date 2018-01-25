@@ -1,7 +1,6 @@
 {
 	"items": [
 		{
-
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Campfire.png",
 			"alt": "Campfire Symbol Style",
 			"name": "Campfire",
@@ -11,88 +10,94 @@
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Rock_1.png",
 			"alt": "Rock 1 Symbol Style",
 			"name": "Rock_1",
-			"styleName": "EsriRealisticStreetSceneStyle"
+			"stylename": "EsriRealisticStreetSceneStyle"
 		},
 		{
 
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Rock_2.png",
 			"alt": "Rock 2 Symbol Style",
 			"name": "Rock_2",
-			"styleName": "EsriRealisticStreetSceneStyle"
+			"stylename": "EsriRealisticStreetSceneStyle"
 		},
 		{
 
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Rock_3.png",
 			"alt": "Rock 3 Symbol Style",
 			"name": "Rock_3",
-			"styleName": "EsriRealisticStreetSceneStyle"
+			"stylename": "EsriRealisticStreetSceneStyle"
 		},
 		{
 
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Rock_4.png",
 			"alt": "Rock 4 Symbol Style",
 			"name": "Rock_4",
-			"styleName": "EsriRealisticStreetSceneStyle"
+			"stylename": "EsriRealisticStreetSceneStyle"
 		},
 		{
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Ambulance.png",
 			"alt": "Ambulance Symbol Style",
 			"name": "Ambulance",
-			"styleName": "EsriRealisticTransportationStyle"
+			"stylename": "EsriRealisticTransportationStyle"
 		},
 		{
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Audi_A6.png",
 			"alt": "Audi A6 Symbol Style",
 			"name": "Audi_A6",
-			"styleName": "EsriRealisticTransportationStyle"
+			"stylename": "EsriRealisticTransportationStyle"
 		},
 		{
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/BMW_3-Series.png",
 			"alt": "BMW 3-Series Symbol Style",
 			"name": "BMW_3-Series",
-			"styleName": "EsriRealisticTransportationStyle"
+			"stylename": "EsriRealisticTransportationStyle"
 		},
 		{
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Backhoe.png",
 			"alt": "Backhoe Symbol Style",
 			"name": "Backhoe",
-			"styleName": "EsriRealisticTransportationStyle"
+			"stylename": "EsriRealisticTransportationStyle"
 		},
 		{
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Bobcat.png",
 			"alt": "Bobcat Symbol Style",
 			"name": "Bobcat",
-			"styleName": "EsriRealisticTransportationStyle"
+			"stylename": "EsriRealisticTransportationStyle"
 		},
 		{
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Bus.png",
 			"alt": "Bus Symbol Style",
 			"name": "Bus",
-			"styleName": "EsriRealisticTransportationStyle"
+			"stylename": "EsriRealisticTransportationStyle"
 		},
 		{
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Crane.png",
 			"alt": "Crane Symbol Style",
 			"name": "Crane",
-			"styleName": "EsriRealisticTransportationStyle"
+			"stylename": "EsriRealisticTransportationStyle"
 		},
 		{
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Dumptruck.png",
 			"alt": "Dumptruck Symbol Style",
 			"name": "Dumptruck",
-			"styleName": "EsriRealisticTransportationStyle"
+			"stylename": "EsriRealisticTransportationStyle"
 		},
 		{
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Eurocopter_AS-365.png",
 			"alt": "Eurocopter AS-365 Symbol Style",
 			"name": "Eurocopter_AS-365",
-			"styleName": "EsriRealisticTransportationStyle"
+			"stylename": "EsriRealisticTransportationStyle"
 		},
 		{
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Eurocopter_AS-365_-_Flying.png",
 			"alt": "Eurocopter AS-365 - Flying Symbol Style",
 			"name": "Eurocopter_AS-365_-_Flying",
-			"styleName": "EsriRealisticTransportationStyle"
+			"stylename": "EsriRealisticTransportationStyle"
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTrees/thumbnails/SalixAlba.png",
+        	"alt": "White Willow Symbol Style",
+        	"name": "Salix",
+			"stylename": "EsriRealisticTreesStyle"
 		}
 	]
 }
