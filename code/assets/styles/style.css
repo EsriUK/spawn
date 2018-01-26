@@ -18,16 +18,16 @@ body {
 
 main {
 	background: #212121;
-	height: calc(100% - 100px) !important;
+	height: calc(100% - 105px) !important;
 }
 
 .footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 100px;
+	height: 105px;
 	padding-top: 15px;
-	background-color: #323232;
+	background-color: #cecece;
 	color: #777;
 }
 
@@ -71,6 +71,10 @@ main {
 	text-align: center;
 }
 
-.owl-item.clicked {
-	border: 1px solid red;
+.owl-item > div > img {
+	padding: 6px;
+}
+
+.owl-item.clicked > div > img {
+    background: #e4e4e4;
 }

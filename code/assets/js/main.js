@@ -19,6 +19,9 @@ require([
 			jsonPath : 'assets/data/testdata.json',
 			jsonSuccess : customDataSuccess,
 			items : 18,
+			itemsDesktop : [1200, 12],
+			itemsDesktopSmall : [900, 8],
+			itemsTablet: [600,6],
 			itemsMobile : false,
 			pagination: false,
 			rewindNav: false
@@ -48,6 +51,7 @@ require([
 		}
 
 		$("#filter").keyup(function () {
+			$("#owl-demo").trigger("owl.goTo", 0)
 			$(".owl-item").hide().filter(":contains(" + $(this).val().toLowerCase() + ")").show();
         });
         
