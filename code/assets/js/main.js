@@ -33,12 +33,10 @@ require([
 				var name = data["items"][i].name;
 				var stylename = data["items"][i].stylename;
 
-				content += "<div><img src=\"" + img + "\" alt=\"" + alt + "\"><em style='opacity: 0;'>" + alt.toLowerCase() + "</em><em style='opacity: 0;'>" + name + "</em><em style='opacity: 0;'>" + stylename + "</em></div>"
+				content += "<div><img src=\"" + img + "\" alt=\"" + alt + "\"><em style='display: none;'>" + alt.toLowerCase() + "</em><em style='display: none;'>" + name + "</em><em style='display: none;'>" + stylename + "</em></div>"
 			}
 			$("#owl-demo").html(content);
 		}
-
-	
 
 		$("#filter").keyup(function () {
 			$(".owl-item").hide().filter(":contains(" + $(this).val().toLowerCase() + ")").show();
