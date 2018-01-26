@@ -1,103 +1,539 @@
 {
-	"items": [
-		{
+	"items": [{
+
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Campfire.png",
 			"alt": "Campfire Symbol Style",
 			"name": "Campfire",
-			"stylename": "EsriRealisticSignsandSignalsStyle"
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Camp", "Fire", "Campfire", "Camping", "Sign"]
 		},
 		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Camping.png",
+			"alt": "Camping Symbol Style",
+			"name": "Camping",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Camp", "Camping", "Tent", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Crossroads.png",
+			"alt": "Crossroads Symbol Style",
+			"name": "Crossroads",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Crossroad", "Junction", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Dead_End.png",
+			"alt": "Dead End Symbol Style",
+			"name": "Dead_End",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Dead End", "End", "Warning", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Do_Not_Enter.png",
+			"alt": "Do Not Enter Symbol Style",
+			"name": "Do_Not_Enter",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["No Entry", "Do Not Enter", "Warning", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Gas.png",
+			"alt": "Gas Symbol Style",
+			"name": "Gas",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Gas", "Petrol", "Services", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Left_T-junction.png",
+			"alt": "Left T-junction Symbol Style",
+			"name": "Left_T-Junction",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Left", "Junction", "T-Junction", "T Junction", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Medical.png",
+			"alt": "Medical Symbol Style",
+			"name": "Medical",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Medical", "First Aid", "Doctor", "Hospital", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Motel.png",
+			"alt": "Motel Symbol Style",
+			"name": "Motel",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Motel", "Hotel", "Rest", "Overnight", "Accomodation", "Bed", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/No_Outlet.png",
+			"alt": "No Outlet Symbol Style",
+			"name": "No_Outlet",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["No Outlet", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/No_Thru_Traffic.png",
+			"alt": "No Thru Traffic Symbol Style",
+			"name": "No_Thru",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Directions", "Thru", "Through", "Traffic", "No Thru", "No Through", "No", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Opposing_Traffic.png",
+			"alt": "Opposing Traffic Symbol Style",
+			"name": "Opposing_Traffic",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Traffic", "Opposing Traffic", "Directions", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Pedestrian_Crossing.png",
+			"alt": "Pedestrian Crossing Symbol Style",
+			"name": "Pedestrian_Crossing",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Pedestrian", "Crossing", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Picnic_Area.png",
+			"alt": "Picnic Area Symbol Style",
+			"name": "Picnic_Area",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Picnic", "Park", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Railway_Crossing.png",
+			"alt": "Railway Crossing Symbol Style",
+			"name": "Railway_Crossing",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Railway", "Rail", "Train", "Crossing", "Warning", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Restaurant.png",
+			"alt": "Restaurant Symbol Style",
+			"name": "Restaurant",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Restaurant", "Cafe", "Food", "Eat", "Diner", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Right_T-junction.png",
+			"alt": "Right T-junction Symbol Style",
+			"name": "Right_T-junction",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Right", "Junction", "T-Junction", "T Junction", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/School_Crossing.png",
+			"alt": "School Crossing Symbol Style",
+			"name": "School_Crossing",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["School", "Crossing", "Warning", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Speed_Limit_-_15_mph.png",
+			"alt": "Speed Limit - 15 mph Symbol Style",
+			"name": "Speed Limit - 15 mph Symbol Style",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Speed Limit", "Speed", "Limit", "15mph", "15 mph", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Speed_Limit_-_20_mph.png",
+			"alt": "Speed Limit - 20 mph Symbol Style",
+			"name": "Speed_Limit_-_20_mph",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Speed Limit", "Speed", "Limit", "20mph", "20 mph", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Speed_Limit_-_25_mph.png",
+			"alt": "Speed Limit - 25 mph Symbol Style",
+			"name": "Speed_Limit_-_25_mph",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Speed Limit", "Speed", "Limit", "25mph", "25 mph", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Speed_Limit_-_30_mph.png",
+			"alt": "Speed Limit - 30 mph Symbol Style",
+			"name": "Speed_Limit_-_30_mph",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Speed Limit", "Speed", "Limit", "30mph", "30 mph", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Speed_Limit_-_35_mph.png",
+			"alt": "Speed Limit - 35 mph Symbol Style",
+			"name": "Speed_Limit_-_35_mph",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Speed Limit", "Speed", "Limit", "35mph", "35 mph", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Speed_Limit_-_40_mph.png",
+			"alt": "Speed Limit - 40 mph Symbol Style",
+			"name": "Speed_Limit_-_40_mph",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Speed Limit", "Speed", "Limit", "40mph", "40 mph", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Speed_Limit_-_45_mph.png",
+			"alt": "Speed Limit - 45 mph Symbol Style",
+			"name": "Speed_Limit_-_45_mph",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Speed Limit", "Speed", "Limit", "45mph", "45 mph", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Speed_Limit_-_50_mph.png",
+			"alt": "Speed Limit - 50 mph Symbol Style",
+			"name": "Speed_Limit_-_50_mph",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Speed Limit", "Speed", "Limit", "50mph", "50 mph", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Speed_Limit_-_55_mph.png",
+			"alt": "Speed Limit - 55 mph Symbol Style",
+			"name": "Speed_Limit_-_55_mph",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Speed Limit", "Speed", "Limit", "55mph", "55 mph", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Speed_Limit_-_60_mph.png",
+			"alt": "Speed Limit - 60 mph Symbol Style",
+			"name": "Speed_Limit_-_60_mph",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Speed Limit", "Speed", "Limit", "60mph", "60 mph", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Speed_Limit_-_65_mph.png",
+			"alt": "Speed Limit - 65 mph Symbol Style",
+			"name": "Speed_Limit_-_65_mph",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Speed Limit", "Speed", "Limit", "65mph", "65 mph", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Speed_Limit_-_70_mph.png",
+			"alt": "Speed Limit - 70 mph Symbol Style",
+			"name": "Speed_Limit_-_70_mph",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Speed Limit", "Speed", "Limit", "70mph", "70 mph", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Stop.png",
+			"alt": "Stop Symbol Style",
+			"name": "Stop",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Stop", "Warning", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Stop_Ahead.png",
+			"alt": "Stop Ahead Symbol Style",
+			"name": "Stop_Ahead",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Stop", "Stop Ahead", "Warning", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/T-Junction.png",
+			"alt": "T-Junction Symbol Style",
+			"name": "T-Junction",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["T Junction", "Stop", "Stop Ahead", "Warning", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Telephone.png",
+			"alt": "Telephone Symbol Style",
+			"name": "Telephone",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Telephone", "Phone", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Traffic_Light.png",
+			"alt": "Traffic Light Symbol Style",
+			"name": "Traffic_Light",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Traffic Light", "Traffic", "Signal", "Light", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Traffic_Light_1.png",
+			"alt": "Traffic Light 1 Symbol Style",
+			"name": "Traffic_Light_1",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Traffic Light", "Traffic", "Signal", "light", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Traffic_Light_2.png",
+			"alt": "Traffic Light 2 Symbol Style",
+			"name": "Traffic_Light_2",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Traffic Light", "Traffic", "Signal", "Light", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Traffic_Light_3.png",
+			"alt": "Traffic Light 3 Symbol Style",
+			"name": "Traffic_Light_3",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Traffic Light", "Traffic", "Signal", "Light", "Sign"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Traffic_Light_4.png",
+			"alt": "Traffic Light 4 Symbol Style",
+			"name": "Traffic_Light_4",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Traffic Light", "Traffic", "Signal", "Light", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Turn_Left_Arrow.png",
+			"alt": "Turn Left Arrow Symbol Style",
+			"name": "Turn Left",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Turn", "Left", "Turn Left", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Turn_Right_Arrow.png",
+			"alt": "Turn Right Arrow Symbol Style",
+			"name": "Turn_Right_Arrow",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Turn", "Right", "Turn Right", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticSignsAndSignals/thumbnails/Yield.png",
+			"alt": "Yield Symbol Style",
+			"name": "Yield",
+			"stylename": "EsriRealisticSignsandSignalsStyle",
+			"tags": ["Yield", "Sign"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/ATM.png",
+			"alt": "ATM Symbol Style",
+			"name": "ATM",
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["ATM", "Bank", "Money"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Bus_Stop_1.png",
+			"alt": "Bus Stop 1 Symbol Style",
+			"name": "Bus_Stop_1",
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["Bus", "Bus Stop", "Coach", "Coach Stop"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Bus_Stop_2.png",
+			"alt": "Bus Stop 2 Symbol Style",
+			"name": "Bus_Stop_2",
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["Bus", "Bus Stop", "Coach", "Coach Stop"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Dumpster.png",
+			"alt": "Dumpster Symbol Style",
+			"name": "Dumpster",
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["Dumpster", "Garbage", "Trash", "Recycling", "Recycle"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Jersey_Barrier.png",
+			"alt": "Jersey Barrier Symbol Style",
+			"name": "Jersey_Barrier",
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["Jersey", "Barrier", "Jersey Barrier"]
+		},
+		{
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Light_On_Post_-_Light_off.png",
+			"alt": "Light On Post - Light off Symbol Style",
+			"name": "Light_On_Post_-_Light_off",
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["Light", "Lamp", "Light on", "Light off"]
+		},
+		{
+
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Rock_1.png",
 			"alt": "Rock 1 Symbol Style",
 			"name": "Rock_1",
-			"stylename": "EsriRealisticStreetSceneStyle"
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["Rock"]
 		},
 		{
 
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Rock_2.png",
 			"alt": "Rock 2 Symbol Style",
 			"name": "Rock_2",
-			"stylename": "EsriRealisticStreetSceneStyle"
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["Rock"]
 		},
 		{
 
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Rock_3.png",
 			"alt": "Rock 3 Symbol Style",
 			"name": "Rock_3",
-			"stylename": "EsriRealisticStreetSceneStyle"
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["Rock"]
 		},
 		{
 
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Rock_4.png",
 			"alt": "Rock 4 Symbol Style",
 			"name": "Rock_4",
-			"stylename": "EsriRealisticStreetSceneStyle"
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["Rock"]
+		},
+		
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Trash_Bin_1.png",
+			"alt": "Trash Bin 1 Symbol Style",
+			"name": "Trash_Bin_1",
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["Garbage", "Trash", "Recycling", "Recycle", "Bin"]
 		},
 		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Trash_Bin_2.png",
+			"alt": "Trash Bin 2 Symbol Style",
+			"name": "Trash_Bin_2",
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["Garbage", "Trash", "Recycling", "Recycle", "Bin"]
+		},
+		{
+
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticStreetScene/thumbnails/Trash_Bin_3.png",
+			"alt": "Trash Bin 3 Symbol Style",
+			"name": "Trash_Bin_3",
+			"stylename": "EsriRealisticStreetSceneStyle",
+			"tags": ["Garbage", "Trash", "Recycling", "Recycle", "Bin"]
+		},{
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Ambulance.png",
 			"alt": "Ambulance Symbol Style",
 			"name": "Ambulance",
-			"stylename": "EsriRealisticTransportationStyle"
-		},
-		{
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Ambulance", "Vehicle", "Transportation", "Emergency"]
+		}, {
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Audi_A6.png",
 			"alt": "Audi A6 Symbol Style",
 			"name": "Audi_A6",
-			"stylename": "EsriRealisticTransportationStyle"
-		},
-		{
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Audi", "Car", "Vehicle", "Transportation", "A6"]
+		}, {
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/BMW_3-Series.png",
 			"alt": "BMW 3-Series Symbol Style",
 			"name": "BMW_3-Series",
-			"stylename": "EsriRealisticTransportationStyle"
-		},
-		{
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["BMW", "3-Series", "3 Series", "Car", "Vehicle", "Transportation"]
+		}, {
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Backhoe.png",
 			"alt": "Backhoe Symbol Style",
 			"name": "Backhoe",
-			"stylename": "EsriRealisticTransportationStyle"
-		},
-		{
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Backhoe", "Digger", "JCB", "Construction", "Vehicle", "Transportation"]
+		}, {
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Bobcat.png",
 			"alt": "Bobcat Symbol Style",
 			"name": "Bobcat",
-			"stylename": "EsriRealisticTransportationStyle"
-		},
-		{
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Bobcat", "Construction", "Digger", "Vehicle", "Transportation"]
+		}, {
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Bus.png",
 			"alt": "Bus Symbol Style",
 			"name": "Bus",
-			"stylename": "EsriRealisticTransportationStyle"
-		},
-		{
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Bus", "Coach", "Public Transport", "Vehicle", "Transportation"]
+		}, {
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Crane.png",
 			"alt": "Crane Symbol Style",
 			"name": "Crane",
-			"stylename": "EsriRealisticTransportationStyle"
-		},
-		{
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Crane", "Construction", "Vehicle", "Transportation"]
+		}, {
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Dumptruck.png",
 			"alt": "Dumptruck Symbol Style",
 			"name": "Dumptruck",
-			"stylename": "EsriRealisticTransportationStyle"
-		},
-		{
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Dumptruck", "Refuse", "Truck", "Garbage", "Construction", "Vehicle", "Transportation"]
+		}, {
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Eurocopter_AS-365.png",
 			"alt": "Eurocopter AS-365 Symbol Style",
 			"name": "Eurocopter_AS-365",
-			"stylename": "EsriRealisticTransportationStyle"
-		},
-		{
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Helicopter", "Eurocopter", "Eurocopter AS 365", "AS 365", "Air", "Vehicle", "Transportation"]
+		}, {
 			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Eurocopter_AS-365_-_Flying.png",
 			"alt": "Eurocopter AS-365 - Flying Symbol Style",
 			"name": "Eurocopter_AS-365_-_Flying",
-			"stylename": "EsriRealisticTransportationStyle"
-		},
-		{
-			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTrees/thumbnails/SalixAlba.png",
-        	"alt": "White Willow Symbol Style",
-        	"name": "Salix",
-			"stylename": "EsriRealisticTreesStyle"
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Helicopter", "Eurocopter", "Eurocopter AS 365", "AS 365", "Air", "Flying", "Vehicle", "Transportation"]
+		}, {
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Eurocopter_H125.png",
+			"alt": "Eurocopter H125 Symbol Style",
+			"name": "Eurocopter_H125",
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Helicopter", "Eurocopter", "Eurocopter H125", "H125", "Air", "Vehicle", "Transportation"]
+		}, {
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Eurocopter_H125_-_Flying.png",
+			"alt": "Eurocopter H125 - Flying Symbol Style",
+			"name": "Eurocopter_H125",
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Helicopter", "Eurocopter", "Eurocopter H125", "H125", "Air", "Flying", "Vehicle", "Transportation"]
+		}, {
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Firetruck.png",
+			"alt": "Firetruck Symbol Style",
+			"name": "Firetruck",
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Firetruck", "Fire", "Fire Engine", "Emergency", "Vehicle", "Transportation"]
+		}, {
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Ford_Edge.png",
+			"alt": "Ford Edge Symbol Style",
+			"name": "Ford_Edge",
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Ford", "Ford Edge", "Edge", "SUV", "Car", "Transportation"]
+		}, {
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Ford_Expedition.png",
+			"alt": "Ford Expedition Symbol Style",
+			"name": "Ford_Expedition",
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Ford", "Ford Expedition", "Expedition", "SUV", "Car", "Transportation"]
+		}, {
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Ford_F-150.png",
+			"alt": "Ford F-150 Symbol Style",
+			"name": "Ford_F-150",
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Ford", "Ford F150", "F150", "SUV", "Car", "Transportation", "Truck", "Van"]
+		}, {
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Ford_Fiesta.png",
+			"alt": "Ford Fiesta Symbol Style",
+			"name": "Ford_Fiesta",
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Ford", "Ford Fiesta", "Fiesta", "Car", "Transportation", "Hatchback"]
+		}, {
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Ford_Focus_Hatchback.png",
+			"alt": "Ford Focus Hatchback Symbol Style",
+			"name": "Ford_Focus_Hatchback",
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Ford", "Ford Focus", "Focus", "Car", "Transportation", "Hatchback"]
+		}, {
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Ford_Fusion.png",
+			"alt": "Ford Fusion Symbol Style",
+			"name": "Ford_Fusion",
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Ford", "Ford Fusion", "Fusion", "Car", "Transportation"]
+		}, {
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Ford_Mustang.png",
+			"alt": "Ford Mustang Symbol Style",
+			"name": "Ford_Mustang",
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Ford", "Ford Mustang", "Mustang", "Car", "Transportation"]
+		}, {
+			"src": "https://static.arcgis.com/arcgis/styleItems/RealisticTransportation/thumbnails/Ford_Taurus.png",
+			"alt": "Ford Taurus Symbol Style",
+			"name": "Ford_Taurus",
+			"stylename": "EsriRealisticTransportationStyle",
+			"tags": ["Ford", "Ford Taurus", "Taurus", "Car", "Transportation"]
 		}
+
 	]
 }

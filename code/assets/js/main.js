@@ -25,16 +25,25 @@ require([
 		});
 	 
 		function customDataSuccess(data){
+			
 			var content = "";
+			
 			for(var i in data["items"]){
-				var img = data["items"][i].src;
-				var alt = data["items"][i].alt;
+				var img			= data["items"][i].src;
+				var alt			= data["items"][i].alt;
+				var name		= data["items"][i].name;
+				var stylename	= data["items"][i].stylename;
+				var tags		= data["items"][i].tags;
 
-				var name = data["items"][i].name;
-				var stylename = data["items"][i].stylename;
+				var myTags		= '';
 
-				content += "<div><img src=\"" + img + "\" alt=\"" + alt + "\"><em style='display: none;'>" + alt.toLowerCase() + "</em><em style='display: none;'>" + name + "</em><em style='display: none;'>" + stylename + "</em></div>"
+				for (i = 0; i < tags.length; i++) { 
+					myTags +=  "<em style='display: none;'>" + tags[i].toLowerCase() + "</em>";
+				}
+
+				content += "<div><img src=\"" + img + "\" alt=\"" + alt + "\"><em style='display: none;'>" + alt.toLowerCase() + "</em><em style='display: none;'>" + name + "</em><em style='display: none;'>" + stylename + "</em>" + myTags + "</div>"
 			}
+
 			$("#owl-demo").html(content);
 		}
 
