@@ -14,9 +14,6 @@ define([
     //Constructor for a new MapController
     var Spawner = function() {
 
-
-
-
         $(document).on('click', '.owl-item', function() {
 
             console.log($(this).context.children[0].childNodes[2].innerText);
@@ -25,11 +22,8 @@ define([
             mainName = $(this).context.children[0].childNodes[2].innerText
             styleName = $(this).context.children[0].childNodes[3].innerText
             var $this = $(this);
-            if ($this.hasClass('clicked')) {
-                $this.removeClass('clicked');
-            } else {
-                $this.addClass('clicked');
-            }
+			$(".owl-item").removeClass("clicked");
+			$this.addClass('clicked');
         });
 
     }

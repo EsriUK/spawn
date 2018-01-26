@@ -70,3 +70,7 @@ main {
 	border-radius: 3px;
 	text-align: center;
 }
+
+.owl-item.clicked {
+	border: 1px solid red;
+}
